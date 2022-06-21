@@ -1,20 +1,19 @@
-
+import React from 'react';
 import './App.css';
-import  ChildComponent1 from './components/ChildComponent1'
-import    ChildComponent2 from './components/ChildComponent2'
-import    ChildComponent3 from './components/ChildComponent3'
+import Counter from './component/Counter';
+
 const App=() => {
   return (
     
-      <div className="App">we are learning react
+      <div className="App"> 
       <h1>App</h1>
-      <br />
-      react is awesome
+      {/* react is awesome
       < ChildComponent1 />
       <ChildComponent2 />
-      <ChildComponent3 />
+      <ChildComponent3 /> */}
+      <Counter />
       </div>  
   );
-}
+};
 
 export default App;
